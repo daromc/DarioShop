@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header-container">
+      <div class="container">
+        <div class="row flex-items-xs-middle flex-items-xs-between">
+          <div class="col-xs-3">
+            <h1>DarioShop</h1>
+          </div>
+          <div class="col-xs text-xs-right">
+            <button class="navbar-toggler pull-xs-right hidden-sm-up" data-toggle="collapse" data-target="#navMenu">
+              &#9776;              
+            </button>
+            <a class="login hidden-xs-down text-uppercase font-weight-bold " href="#">Login</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /header -->
+    <!-- menu -->
+    <div class="menu-container">
+      <nav id="navMenu" class="navbar-toggleable-xs navbar navbar-light collapse">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0">
+              <ul class="nav navbar-nav">
+                <li class="nav-item text-xs-center ">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item text-xs-center active">
+                  <a href="catalogo.html" class="nav-link">Catalogo</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a href="#" class="nav-link">Carrito</a>
+                </li>
+                <li class="nav-item text-xs-center hiddden-sm-up">
+                  <a href="#" class="nav-link">Login</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-xs-12 col-md-6 offset-md-2 hiddden-xs-down">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Encontro lo que buscaba ?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>  
+    <div id="search-bar" class="container hidden-sm-up">
+      <div class="row">
+        <div class="col-xs">
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Encontro lo que buscaba ?">
+                <span class="input-group-btn">
+                  <button class="btn btn-platzi" type="button">
+                    <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                  </button>
+                </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+
+
+    </div>
+    
+    <!-- /menu -->
+    
+    <!-- Breadcrumbs -->
+    <section id="breadcrumbs-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs">
+            <nav class="breadcrumb">
+              <a href="index.html" class="breadcrumb-item">PlatziShop</a>
+              <a href="catalogo.html" class="breadcrumb-item">Catalogo</a>
+
+              <span class="breadcrumb-item active">Todos los productos</span>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Breadcrumbs -->
+    <!-- Productos -->
+    <section id="productos-container">
+      <div class="container">
+        <div class="row">
+          
+          <!-- filtros -->
+          <div class="col-xs-12 col-md-3">
+            <div class="list-group filtros-toggle">
+              <a id="filtrosToggle" href="#" class="list-group-item.list-group-item-action.navbar-toggler hidden-sm-up" data-target="filtros-container" data-toggle="collapse">
+                <h5 class="list-group-item-heading">Filtro                  
+                </h5>
+              </a>
+            </div>
+            <div id="filtros-container" class="collapse navbar-toggleable-xs">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                  <h5 class="list-group-item-heading">Categoria</h5>
+                </a> 
+                <a href="#" class="list-group-item list-group-item-action">
+                  Ropa <span class="tag tag-pill tag-default pull-xs-right">10</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  Tecnologia <span class="tag tag-pill tag-default pull-xs-right">14</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  Accesorios <span class="tag tag-pill tag-default pull-xs-right">15</span>
+                </a>
+              </div>
+            </div>
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                  <h5 class="list-group-item-heading">Color</h5>
+                </a> 
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+                  Verde
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+                  Rojo
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-warning">
+                  Amarillo
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+                  Azul
+                </a>
+              </div>
+              
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                  <h5 class="list-group-item-heading">Sexo</h5>
+                </a> 
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" value="m" class="form-check-input">
+                      Masculino
+                    </label>
+                  </div>
+                   
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" value="f" class="form-check-input">
+                      Femenino
+                    </label>
+                  </div> 
+                </a>
+              </div>
+          </div>
+
+          <!-- /filtros -->
+          <!-- Productos -->
+          <div class="col-xs-12 col-md-9 listado-productos">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 1</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 1</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 2</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 3</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 4</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 5</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 6</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 7</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 8</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 9</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="card">
+                  <img src="images/producto.svg" alt="" class="card-img-top img-fluid">
+                  <div class="card-block">
+                    <h4 class="card-title">Producto 10</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi consequatur iusto</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div id="pagination-container" class="col-xs text-xs-center">
+                <nav>
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <a href="#" class="page-link">
+                        &laquo;
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a href="#" class="page-link">
+                        1
+                      </a>
+                    </li>
+
+                    <li class="page-item">
+                      <a href="#" class="page-link">
+                        2
+                      </a>
+                    </li>
+
+                    <li class="page-item">
+                      <a href="#" class="page-link">
+                        3
+                      </a>
+                    </li>
+
+                    <li class="page-item">
+                      <a href="#" class="page-link">
+                        &raquo;
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <!-- /Productos -->
+
+        </div>
+      </div>
+    </section>
+    <!-- /Productos -->
+
+    <!-- Footer -->
+    <footer id="footer-container">
+      <div class="container">
+        <div class="row text-xs-center text-md-left">
+          <div class="col-md-4">
+            <form id="suscribete" action="#" method="POST">
+              <h4 class="text-uppercase">Quieres recibir las novedades ?</h4>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Tu@Correo.com">
+                <small class="form-text text-muted">No compartiremos tu informacion con nadie mas</small>
+                <button type="submit" class="btn btn-primary form-text">Suscribeme</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 offset-md-5">
+            <h4>Navegacion</h4>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="catalogo.html" class="nav-link">Catalogo</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Carrito</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Login</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">FAQ</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- /footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalOferta">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+            <h4 class="modal-title">Oferta exclusica</h4> </div>
+            <div class="modal-body">Registrate hoy y recibe $15 pesos de descuento</div>
+            <form action="#" class="form">
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="tu@correo.com">
+                <small class="form-text text muted">No compartiremos tu informacion</small>
+                <button typpe="submit" class="btn btn-platzi form-text">Registrate</button>
+                <button id="btnNoRegistrar" class="btn btn-warning form-text" data-dismiss="modal">No, no quiero Descuento </button>
+
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous">
+      
+    </script>
+    <script src="js/app.js"></script>
+    <script>
+      mostrarModal()
+    </script>
+  </body>
+</html>
